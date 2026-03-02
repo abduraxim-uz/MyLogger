@@ -1,4 +1,4 @@
-package uz.abduraxim;
+package uz.abduraxim.logger;
 
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
@@ -38,4 +38,5 @@ public class MyLogger {
     public static void debug(String msg) {
         System.out.println(CYAN + "[DEBUG] " + now() + " - " + msg + RESET);
     }
+
 }
